@@ -1,0 +1,46 @@
+﻿.mainDiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 500px;
+  height: 500px;
+
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.inputDiv {
+  padding: 20px;
+  border: 1px solid #41b06e;
+  border-radius: 10px;
+}
+.submitB {
+  padding: 10px 20px;
+  background-color: #8decb4;
+  border: 1px solid #41b06e;
+  border-radius: 10px;
+
+  color: white;
+}
+
+.yourT {
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  font-weight: 200;
+}
+.dataDiv {
+  padding: 20px;
+
+  border-bottom: 2px dotted #41b06e;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dataDiv p {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+}
